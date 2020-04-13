@@ -34,10 +34,6 @@ def decrypt(cipher,shift):
             # print("result now is ", result) #to print intermediate results
     return result
 
-
-# In[62]:
-
-
 #check the encrypt function
 text = str(input("Enter your text to encrypt : "))
 shift = int(input ("Enter shift(number between 1 and 26 ) for Caesar Cipher : "))
@@ -45,10 +41,6 @@ shift = int(input ("Enter shift(number between 1 and 26 ) for Caesar Cipher : ")
 print ("Plain Text : " + text)
 print ("Shift pattern : " + str(shift))
 print ("Cipher: " + encrypt(text,shift))
-
-
-# In[66]:
-
 
 #check the decrypt function
 cipher_text = str(input("Enter your ciphertext to decrypt : "))
