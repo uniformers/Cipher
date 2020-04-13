@@ -1,9 +1,4 @@
-
-# coding: utf-8
-
-# In[60]:
-
-
+#function to encrypt
 def encrypt(text,shift):
     result = " "
     for i in range (len(text)):
@@ -21,10 +16,7 @@ def encrypt(text,shift):
             #print("result now is ", result) #to print intermediate results
     return result
 
-
-# In[61]:
-
-
+#function to decrypt
 def decrypt(cipher,shift):
     result = " "
     for i in range (len(cipher)):
